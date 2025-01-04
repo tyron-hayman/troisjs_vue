@@ -1,4 +1,4 @@
-# tyronhaymanv4
+# Portfolio Rebuild 2025
 
 A project built using VueJS3 and TroisJS to provide a more unique and interactive experience. The build includes GSAP for animations and Lenis for smooth scrolling across all browsers.
 
