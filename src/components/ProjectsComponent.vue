@@ -64,7 +64,7 @@ onMounted(() => {})
   </div>
   <div class="relative container mx-auto z-[3]">
     <div class="w-full flex justify-end">
-      <div v-if="pageData" class="w-[600px]">
+      <div v-if="pageData.length > 0" class="w-[600px]">
         <ProjectCard class="mb-20" v-for="item in pageData" :item="item" />
       </div>
     </div>

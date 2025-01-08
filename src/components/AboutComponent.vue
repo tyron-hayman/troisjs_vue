@@ -88,7 +88,7 @@ watch(result, (value) => {
   <div class="container mx-auto">
     <div class="w-full flex justify-end mb-60">
       <div ref="aboutPara" class="w-2/3 relative z-[3]">
-        <h2 v-if="loaded" class="text-white text-4xl leading-relaxed font-light text-pretty mb-20">
+        <h2 v-if="loaded" class="text-white text-3xl leading-relaxed font-light text-pretty mb-20">
           {{ aboutContent }}
         </h2>
         <div
